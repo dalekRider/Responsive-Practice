@@ -768,7 +768,7 @@ h2 {
   justify-content: center;
 }
 
-@media (min-width: 725px) {
+@media (min-width: 830px) {
   .nav__main a {
     -webkit-box-pack: end;
     -webkit-justify-content: flex-end;
