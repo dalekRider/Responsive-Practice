@@ -999,6 +999,12 @@ footer::before {
 
 footer a {
   color: #eae9da;
+  text-decoration: none;
+  padding: 0.5em;
+}
+
+footer a:hover, footer a:focus {
+  opacity: 0.5;
 }
 
 .social__links {
