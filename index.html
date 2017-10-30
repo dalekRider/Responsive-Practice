@@ -6,7 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <title>Template Version 1</title>
-  <script src="https://use.fontawesome.com/f56fcec429.js"></script>
   <link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -14,9 +13,11 @@
   <header class="main__header">
     <div class="container grid">
 
-      <div class="logo col"><img src="http://via.placeholder.com/300x110" alt="music logo"></div>
+      <div class="logo">
+        <img src="../img/genBandLogo2.svg" alt="music logo">
+      </div>
 
-      <nav class="nav__main col">
+      <nav class="nav__main">
         <ul class="list nav--list">
           <li><a href="#">Home</a></li>
           <li><a href="#">About</a></li>
@@ -25,6 +26,10 @@
           <li><a href="#">Contact</a></li>
         </ul>
       </nav>
+
+      <div class="nav__toggle">
+        <div class="hamburger"></div>
+      </div>
 
     </div>
   </header>
@@ -35,15 +40,15 @@
 <section class="hero">
   <div class="container grid">
 
-    <div class="hero__text col">
-      <h1 class="title title--large"><span>Team Void's upcoming</span> fall tour schedule!</h1>
+    <div class="hero__text col col--twothirds">
+      <h1 class="title--large"><span>Your Band's upcoming</span> fall tour schedule!</h1>
       <p class="text--intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam harum amet tenetur fugit cumque, perspiciatis neque earum pariatur quasi. Unde in, autem reiciendis ea veniam optio nam dignissimos quod est!</p>
       <a href="" class="btn btn--secondary">Get Merch</a>
       <a href="" class="btn btn--primary">See Us Live</a>
     </div>
 
-    <div class="col">
-      <img src="img/guitar.png" alt="" class="hero__image">
+    <div class="col col--third">
+      <img src="img/guitar.png" alt="" class="hero__image lg--screen">
     </div>
 
   </div>
@@ -53,22 +58,22 @@
 
 <section class="team">
   <div class="container grid">
-    <h1>Meet The Team</h1>
+    <h1 class="col col--full">Meet The Team</h1>
 
-    <div class="team__members col">
+    <div class="team__members col col--third">
       <img src="http://via.placeholder.com/100x100" alt="">
-      <h2>EL Meurto</h2>
-      <p></p>
+      <h2>Band Mate 1</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nostrum vero quam consequuntur porro incidunt quod fugiat aperiam non. Quidem distinctio sed rem iusto, reiciendis!</p>
     </div>
-    <div class="team__members col">
+    <div class="team__members col col--third">
       <img src="http://via.placeholder.com/100x100" alt="">
-      <h2>Infinity</h2>
-      <p></p>
+      <h2>Band Mate 2</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nostrum vero quam consequuntur porro incidunt quod fugiat aperiam non. Quidem distinctio sed rem iusto, reiciendis!</p>
     </div>
-    <div class="team__members col">
+    <div class="team__members col col--third">
       <img src="http://via.placeholder.com/100x100" alt="">
-      <h2>Johnny X</h2>
-      <p></p>
+      <h2>Band Mate 3</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nostrum vero quam consequuntur porro incidunt quod fugiat aperiam non. Quidem distinctio sed rem iusto, reiciendis!</p>
     </div>
 
   </div>
@@ -77,22 +82,19 @@
 <!-- Whats New -->
 
   <section class="news">
+    <div class="title--box">
+      <h1>Whats new with the group</h1>
+      <p>Get the latest info about your favorite music artist!</p>
+    </div>
     <div class="grid">
-
-      <div class="title--box">
-        <h1>Whats new in the Void</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam vero architecto sunt!</p>
-      </div>
-
-      <div class="col">
+      <div class="col col--half bg--primary">
         <h1>Rocking Halls and taking names</h1>
         <h2>Lorem ipsum dolor.</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque animi autem ab quod vel perspiciatis.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque animi autem ab quod vel perspiciatis.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque animi autem ab quod vel perspiciatis. Doloremque animi autem ab quod vel perspiciatis.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque animi autem ab quod vel perspiciatis. Doloremque animi autem ab quod vel perspiciatis.</p>
         <a href="" class="btn btn--primary">Find Shows</a>
       </div>
-      <div class="col img-box">
-        <img src="img/busted-sticks.jpg" alt="a pair of broken drum sticks resting on a snare drum">
+      <div class="col img--box col--half lg--screen">
       </div>
 
     </div>
@@ -100,23 +102,24 @@
 
 <!-- merch -->
   <section class="merch">
-    <p class="text--large">Music, Shirts, Stickers, Poster and More!</p>
+    <div class="container container--merch">
+    <p class="text--large">Music, Shirts, Stickers, Posters and More!</p>
     <h1 class="title title--large">GET YOUR GEAR TODAY!!!</h1>
-    <a href="" class="btn btn--primary">Get Merch</a>
+    <a href="" class="btn btn--primary">Buy Now!</a>
+    </div>
   </section>
 
 <!-- footer -->
 
   <footer>
-    <div class="container">
-      <p></p>
+    <div class="container container--footer">
+      <p class="title--footer">Step Into parts unknown...</p>
       <ul class="list social__links">
         <li><a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
         <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
         <li><a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
         <li><a href=""><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
       </ul>
-    </div>
     <ul class="list nav--footer">
       <li><a href="#">Home</a></li>
       <li><a href="#">About</a></li>
@@ -124,7 +127,16 @@
       <li><a href="#">Shows</a></li>
       <li><a href="#">Contact</a></li>
     </ul>
+    </div>
   </footer>
-
+  <!-- Jquery -->
+  <script
+    src="http://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous"></script>
+  <!-- font Awesom -->
+  <script src="https://use.fontawesome.com/f56fcec429.js"></script>
+  <!-- My Scripts -->
+  <script src="js/scripts.js"></script>
 </body>
 </html>

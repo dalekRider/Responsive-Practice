@@ -1,0 +1,27 @@
+.grid
+  display: flex
+  flex-wrap: wrap
+
+.col
+  flex: 0 0 100%
+  padding: 0 0.75em
+  @media (min-width: 725px)
+    &:first-of-type
+      padding-left: 0
+
+    &:last-of-type
+      padding-right: 0
+
+.col--full
+  flex: 0 0 100%
+
+@media (min-width: 725px)
+  .col--third
+    flex-basis: 33.3333%
+
+@media (min-width: 830px)
+  .col--twothirds
+    flex-basis: 66.6666%
+
+  .col--half
+    flex-basis: 50%

@@ -1,0 +1,95 @@
+.nav__main
+  background: $accent
+  position: absolute
+  top: 0
+  right: 0
+  left: 100%
+
+  font-size: 1.2rem
+  overflow: hidden
+  transition: all ease-in-out 300ms
+
+  @media(min-width: 830px)
+    position: relative
+    flex: auto
+    background: none
+    margin-top: .5em
+    left: 0
+    transition: all ease-in-out 0ms
+
+  ul
+    display: flex
+    flex-direction: column
+    justify-content: flex-end
+    height: 100vh
+
+    @media (min-width: 830px)
+      flex-direction: row
+      height: auto
+
+  li
+    flex: 1 1 auto
+    border-bottom: 1px solid rgba(0, 0, 0, .15)
+    display: flex
+
+    @media(min-width: 830px)
+      border: none
+      text-align: center
+      max-width: 90px
+
+  a
+    color: $text-primary
+    text-decoration: none
+    flex-basis: 100%
+    display: flex
+    align-items: center
+    justify-content: center
+    @media(min-width: 725px)
+      justify-content: flex-end
+      display: inline
+
+    &:hover,
+      background: rgba(0, 0, 0, .10)
+      @media(min-width: 830px)
+        background: none
+        color: lighten($text-accent, 20%)
+
+  &.is-open
+    left: 0
+
+// Burger Menu
+
+.nav__toggle
+  display: block
+  padding: 1em
+  position: absolute
+  right: 1.45em
+  top: 1.45em
+  cursor: pointer
+  @media(min-width: 830px)
+    display: none
+
+.hamburger, .hamburger::before, .hamburger::after
+  content: ''
+  display: block
+  width: 2em
+  height: 3px
+  background: $tertiary
+  transition: all ease-in-out 300ms
+  @media(min-width: 830px)
+    transition: all ease-in-out 0ms
+
+.hamburger::before
+  transform: translateY(-7px)
+
+.hamburger::after
+  transform: translateY(4px)
+
+.hamburger.is-open
+  transform: rotate(45deg)
+
+  &::after
+    transform: rotate(-90deg) translateX(0px)
+
+  &::before
+    display: none
