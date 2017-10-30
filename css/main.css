@@ -1029,6 +1029,7 @@ footer a:hover, footer a:focus {
   -ms-flex-pack: distribute;
   justify-content: space-around;
   margin: 0 auto;
+  z-index: 100;
 }
 
 .nav--footer a {
