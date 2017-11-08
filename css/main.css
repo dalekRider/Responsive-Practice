@@ -1028,13 +1028,12 @@ footer a:hover, footer a:focus {
   -webkit-justify-content: space-around;
   -ms-flex-pack: distribute;
   justify-content: space-around;
-  margin: 0 auto;
-  z-index: 100;
+  position: relative;
 }
 
 .nav--footer a {
-  text-decoration: none;
   font-weight: 700;
+  font-size: 1rem;
 }
 
 .container--footer {
