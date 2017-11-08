@@ -14,7 +14,7 @@ Other than cosmetic changes (fonts, images, colors, and padding) this is basical
 Overall this was a fantastic tutorial. For me it was a crash course into prepros which fixed all of my sass processing frustrations prior to this. Additionally, it gave me more hands on experience with SASS. 
 
 Unfinished Business:
-  - fix footer navigation links
+  - <del>fix footer navigation links</del>
   - replace guitar image w/ full guitar
   - tweak button size
   - cta modal possibly
