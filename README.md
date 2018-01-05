@@ -2,6 +2,8 @@
 
 This is a basic site built for workflow practice setting up a project environment with Atom. This project uses Prepros to process SASS it also relies on Atom's github integration and Github Desktop.
 
+Live Version: https://dalekrider.github.io/Responsive-Practice/<br>
+
 This project was completed following Kevin Powell's workflow tutorial:<br>
 https://github.com/kevin-powell/Responsive---start-to-finish<br>
 https://www.youtube.com/playlist?list=PL4-IK0AVhVjMNfaGdUgGfftCHfSPCuAT6<br>
