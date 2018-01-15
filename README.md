@@ -17,10 +17,10 @@ Overall this was a fantastic tutorial. For me it was a crash course into prepros
 
 Unfinished Business:
   - <del>fix footer navigation links</del>
+  - <del>fix broken main navigation links</del>
   - replace guitar image w/ full guitar
-  - tweak button size
-  - cta modal possibly
-  
+  - cta addition 🤔
+  
 <strong>Johnathan Mercier</strong>
   
  
